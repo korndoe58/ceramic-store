@@ -3,9 +3,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="h-12 md:h-24 p-4 lg:px-20 xl:px-40 text-red-500 flex items-center justify-between">
-      <Link href="/" className="font-bold text-xl">VAYUPAD CLAY</Link>
-      <p>© ALL RIGHTS RESERVED.</p>
+    <div className="bg-[#393646] h-12 md:h-24 p-4 lg:px-20 xl:px-40  flex items-center justify-between">
+      <Link href="/" className=" text-[#F4EEE0] font-bold text-xl">VAYUPAD CLAY</Link>
+      <p className="text-[#F4EEE0]" >© ALL RIGHTS RESERVED.</p>
     </div>
   );
 };
