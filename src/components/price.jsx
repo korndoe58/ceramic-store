@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 
 
 
-const Price = ({ price, id, options }) => {
+const Price = ({ price, options }) => {
   const [total, setTotal] = useState(price);
   const [quantity, setQuantity] = useState(1);
   const [selected, setSelected] = useState(0);

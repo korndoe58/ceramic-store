@@ -3,6 +3,8 @@ import Image from "next/image";
 import React from "react";
 
 const singleProduct = {
+
+
   id: 1,
   title: "Porcelain (white)",
   desc: "Embrace wisdom and prosperity with our Porcelain Ganesh. Meticulously crafted, it exudes spirituality and blessings. A divine piece for your space, inviting positivity and grace into your life.",
@@ -25,6 +27,9 @@ const singleProduct = {
 };
 
 const SingleProductPage = () => {
+
+
+
   return (
     <div className="p-4 lg:px-20 xl:px-40 h-screen flex flex-col justify-around text-[#393646] md:flex-row md:gap-8 md:items-center">
       {/* IMAGE CONTAINER */}
