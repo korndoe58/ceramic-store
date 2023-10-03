@@ -1,4 +1,4 @@
-import Price from "@/components/Price";
+import Price from "@/components/price";
 import Image from "next/image";
 import React from "react";
 
